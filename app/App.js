@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
-
+import Container from './Container'
 class App extends Component {
-  render(){
+  render() {
     return (
-      <h1>Hello World</h1>
+      <Container />
     );
   }
 }
-
 render(<App />, document.getElementById('root'));
